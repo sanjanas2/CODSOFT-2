@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        /* Additional styling */
+        body {
+            background-color: black;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        .home-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .home p {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">PORTFOLIO</a>
+        
+        <nav class="navbar">
+            <a href="#" style="--i:1"class="active">Home</a>
+            <a href="#about" style="--i:2">About</a>
+            <a href="#skills" style="--i:3">Skills</a>
+            <a href="#resume" style="--i:4">Resume</a>
+            <a href="#contact" style="--i:5">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home">
+        <div class="home-content">
+            <h3>Hello, It's me,</h3>
+            <h1>Sanjana S!</h1>
+            <p>
+                I am currently in my second year of college, pursuing a Bachelor of Technology in Computer Science and
+                Engineering at SRM University. As an aspiring developer, I am eagerly looking forward to the numerous
+                opportunities that lie ahead.
+            </p>
+            <div class="home-sci">
+                <a href="https://www.linkedin.com/in/sanjana-s-038919288/" style="--i:6"><i class='bx bxl-linkedin'></i>
+                <a href="https://www.instagram.com/sanjana_s27_/" style="--i:7"><i class='bx bxl-instagram'></i>
+                <a href="https://twitter.com/sanjs27" style="--i:8"><i class='bx bxl-twitter'></i>
+                <a href="https://github.com/sanjanas2" style="--i:9"><i class='bx bxl-github'></i>
+            </div>
+            <a href="#" class="btn-box">More about me!</a>
+        </div>
+    </section>
+    
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="sanjana.jpg" alt="">
+
+        </div>
+        <div class="about-text">
+            <h2>About<span> Me</span></h2>
+            <p>I am currently in my second year of college, pursuing a Bachelor of Technology in Computer Science and Engineering at SRM University. As an aspiring developer, I am eagerly looking forward to the numerous opportunities that lie ahead. My primary areas of interest include artificial intelligence, web development and also robotics, which I find incredibly captivating.
+               In addition to my academic pursuits, I am also a trained violinist and a vocalist. During my free time, I am an avid reader and a photographer (the photo above is one of my clicks!). I always seek to expand my knowledge and learn new things. In my final year of high school, I served as House Captain, a role that allowed me to develop and hone my leadership skills.</p>
+
+        </div>
+    </section>
+        <h1 class="title">My <span>Skills</span></h1>
+    </section>
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="skills-container">
+                <div class="technical-skills">
+                    <h1 class="heading">Technical Skills</h1>
+                    <div class="Technical-bars">
+                        <div class="skills-container">
+                            <div class="skill">
+                                <label for="html">HTML: 80% <i style="color: #c95d2e" class='bx bxl-html5'></i></label>
+                                <progress id="html" value="80" max="100"> 80% </progress>
+                            </div>
+                            <div class="skill">
+                                <label for="css">CSS: 80% <i style="color: #147bbc" class='bx bxl-css3'></i></label>
+                                <progress id="css" value="80" max="100"> 80% </progress>
+                            </div>
+                            <div class="skill">
+                                <label for="java">Java: 90% <i style="color: #b0bc1e" class='bx bxl-java'></i></label>
+                                <progress id="java" value="90" max="100"> 90% </progress>
+                            </div>
+                            <div class="skill">
+                                <label for="python">Python: 95% <i style="color: #c32ec9" class='bx bxl-python'></i></label>
+                                <progress id="python" value="95" max="100"> 95% </progress>
+                            </div>
+                            <div class="skill">
+                                <label for="cpp">C++: 85% <i style="color: #e02e5e" class='bx bxl-c-plus-plus'></i></label>
+                                <progress id="cpp" value="85" max="100"> 85% </progress>
+                            </div>
+                            <div class="skill">
+                                <label for="javascript">Javascript: 80% <i style="color: #aaa" class='bx bxl-javascript'></i></label>
+                                <progress id="javascript" value="80" max="100"> 80% </progress>
+                            </div>
+                            <div class="skill">
+                                <label for="cprogramming">C programming: 97% </label>
+                                <progress id="cprogramming" value="97" max="100"> 97% </progress>
+                            </div>
+                        </div>
+                        
+</section>
+
+                
+<section class="skills" id="professional-skills">
+    <div class="container">
+        <div class="skills-container">
+            <div class="professional-skills">
+                <h1 class="heading">Professional Skills</h1>
+                    <svg x="0px" y="0px" viewBox="5 5 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                        <circle class="bar-circle" cx="100" cy="100" r="20"></circle>
+                    </svg>
+                    <div class="percentage">90%</div>
+                    <div class="text">Leadership</div>
+                </div>
+                <div class="radial-bars">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                        <circle class="bar-circle" cx="100" cy="100" r="20"></circle>
+                    </svg>
+                    <div class="percentage">95%</div>
+                    <div class="text">Communication</div>
+                </div>
+                <div class="radial-bars">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                        <circle class="bar-circle" cx="100" cy="100" r="20"></circle>
+                    </svg>
+                    <div class="percentage">85%</div>
+                    <div class="text">Creativity</div>
+                </div>
+                <div class="radial-bars">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                        <circle class="bar-circle" cx="100" cy="100" r="20"></circle>
+                    </svg>
+                    <div class="percentage">87%</div>
+                    <div class="text">Problem Solving</div>
+                </div>
+            </div>
+        </div>
+</section>
+
+
+<section class="portfolio" id="resume">
+        <div class="main-text" id="project">
+            <h2>My <span>Projects</span></h2>
+
+            <div class="resume-content">
+                <div class="row">
+                    <img src="phonebook.png" alt="">
+                    <div class="layer">
+                        <h5>Realtime Phonebook System</h5>
+                        <p>It is a DSA project in C language I have worked on. This mini project in C phonebook allows you to perform simple Phonebook operations like in your mobile you can add, list, modify, search and delete phonebook related records. File handling and data structure concepts has been extensively used for almost all functions in this mini project.</p>
+
+                        <a href="#"><i class='bx bx-link-external' style="color:aliceblue;"></i></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <img src="library.png" alt="">
+                    <div class="layer">
+                        <h5> Library Management System In Python</h5>
+                        <p>Library Management System is an application which refers to library systems which are generally small or medium in size. It is used by librarian to manage the library using a computerized system where he/she can record various transactions like issue of books, return of books, addition of new books, addition of new students etc.</p>
+
+                        <a href="#"><i class='bx bx-link-external' style="color:aliceblue;"></i></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <img src="bank.png" alt="">
+                    <div class="layer">
+                        <h5>Bank Management System In Java</h5>
+                        <p>The Bank Management System is a software application that offers a comprehensive solution for efficiently managing various aspects of a bank's operations. It serves as the backbone of modern banking, enabling customers to carry out financial activities conveniently and allowing bank administrators to oversee and streamline internal processes effectively. A GUI and a database using MySQL is created for this project.</p>
+
+                        <a href="#"><i class='bx bx-link-external' style="color:aliceblue;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</section>
+    
+<section class="contact" id="contact">
+    <div class="contact-text">
+        <h2>Contact <span>Me</span></h2>
+        <h4>Let's work Together!</h4>
+        <p>If you want to know more about me or hire me, you can contact on my socials here.</p>
+        <div class="contact-list">
+            <li><i class='bx bx-send bx-flip-vertical' style='color:pink' ></i> sanrevsha@gmail.com</li>
+            <li><i class='bx bx-phone' style='color:pink' ></i> 6369028458</li>
+        </div>
+        <div class="conatct-icons">
+            <a href="https://www.linkedin.com/in/sanjana-s-038919288/"><i class='bx bxl-linkedin' style='color:pink' ></i></a>
+            <a href="https://www.instagram.com/sanjana_s27_/"><i class='bx bxl-instagram' style='color:pink'></i></a>
+            <a href="https://twitter.com/sanjs27"><i class='bx bxl-twitter' style='color:pink'></i></a>
+            <a href="https://github.com/sanjanas2"><i class='bx bxl-github' style='color:pink'></i></a>
+        </div>
+    </div>
+
+    <div class="contact-form">
+        <form action="">
+            <input type="name" placeholder="Name" required>
+            <input type="email" placeholder="Enter your Email" required>
+
+            <input type="" placeholder="Enter your Subject">
+            <textarea name="" id="" cols="75" rows="35" placeholder="Enter your Message" reguired></textarea>
+         <input type="submit" value="submit" class="send">
+        </form>
+    </div>
+</section>
+<div class="last-text">
+    <p>Developed by Sanjana S, 19th December, 2023.</p>
+</div>
+<a href="#" class="top"><i class='bx bx-up-arrow-alt'></i></a>
+</body>
+
+</html>
